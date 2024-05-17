@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'ApiwithShimmer' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for ApiwithShimmer
+
+  target 'ApiwithShimmerTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+pod 'ShimmerSwift'
+pod 'SkeletonView'
+
+  target 'ApiwithShimmerUITests' do
+    # Pods for testing
+  end
+
+end
